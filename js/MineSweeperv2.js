@@ -1,4 +1,4 @@
-var MineSweeper = (function () {
+var mineSweeper = (function () {
     "use strict";
 
     var height,
@@ -143,5 +143,5 @@ var MineSweeper = (function () {
 
 
 console.clear();
-MineSweeper.init(3,5,4);
-MineSweeper.outputBoard();
+mineSweeper.init(3,5,4);
+mineSweeper.outputBoard();
